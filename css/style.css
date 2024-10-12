@@ -1,0 +1,296 @@
+/*******************************************header********************************************/
+.link{
+    color: black;
+    padding-top: 10px;
+}
+
+
+#head{
+    background-color: #FF931E;
+    height: 70px;
+    line-height: 50px;
+}
+.headerr{
+    position: fixed;
+    background-color: rgb(3, 72, 3);
+    width: 100%;
+    z-index: 2;
+}
+.fa-bars{
+    font-size: 30px;
+    color: black;
+    
+    
+}
+@media screen and (max-width: 1050px) {
+    .link{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .link{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 792px) {
+    .link{
+        font-size: 11px;
+    }
+}
+
+/*********************************************************hero-section***************************************/
+
+#hero-section{
+    height: 550px;
+width: 100%;
+background: linear-gradient(#C1272D 0%,#C1272D 50%, #FF931E 100%);
+}
+.pizza-logo{
+    height: 38%;
+    width: 38%;
+    margin-left: -20px;
+    padding-top: 5px;
+}
+#down-strelica-visina{
+    height: 20vh;
+}
+.down-strelica{
+    font-size: 40px;
+}
+.fa-solid{
+    color:#2c0507;
+}
+/********************************************************menu-mobile**************************************/
+
+
+
+#menu-mobile{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #3b3b3cd3;
+    display: none;
+}
+
+#menu-mobile a {
+    color: white;
+}
+
+#menu-mobile a:hover {
+    color: rgb(175, 171, 171);
+}
+.fa-xmark{
+    font-size: 30px;
+    color: rgb(189, 185, 185);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 35px;
+}
+
+
+
+
+/***************************************************************section**************************************/
+
+section{
+    height: 590px;
+    width: 100%;
+    background-color: #E09C53;
+}
+.naslov2{
+    color: #C1272D;
+}
+.slike-meni{
+    height: 200px;
+    width: 200px;
+    background-color: #EA8018;
+    margin: 3%;
+}
+#opis-pizza{
+    width: 80%;
+    height: 450px;
+    background-color: #EA8018;
+    border: solid 5px black;
+    padding: 3%;
+    font-size: 90%;
+}
+.pizza-slike{
+    height: 100%;
+    width: 100%;
+}
+.pizza-slike2{
+    height: 100%;
+    width: 100%;
+}
+.pizza-slike3{
+    height: 100%;
+    width: 100%;
+}
+.pizza-slike4{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 970px) {
+    #text{
+        font-size: 85%;
+    }
+}
+@media screen and (max-width: 574px) {
+    .slike-meni{
+        height: 110px;
+        width: 110px;
+        margin-left: 60px
+    }
+}
+ 
+/************************************************************location************************************/
+
+
+#location{
+    height: 550px;
+    width: 100%;
+    background-color: #A06B24 ;
+    border-bottom: 7px solid white;
+}
+#lokal-slika{
+    height: 60%;
+    width: 90%;
+    background-color: #2B2929;
+    padding: 4%;
+    margin-left: -3%;
+    margin-top: 5%;
+}
+#contact{
+    height: 65%;
+    width: 80%;
+    background-color: #A87D52;
+    margin-left: 28%;
+    margin-left: 9%;
+    margin-top: 5%;
+    padding: 1%;
+    border: 5px solid black;
+    
+}
+#bar-slika{
+    height: 100%;
+    width: 100%;
+}
+#buton-pozadina{
+    background-color: #443628;
+    border-bottom: 2px solid white;
+    padding: 3px;
+}
+#map{
+    height: 70vh;
+    z-index: 1;
+    
+}
+@media screen and (max-width: 1100px) {
+    #contact>h4{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 736px) {
+    #contact>h4{
+        font-size: 15px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1100px){
+    #contact{
+        font-size: 10px;
+    }
+}
+ 
+/******************************************************footer*******************************************/
+
+footer{
+    height: 100px;
+    background-color: #443628;
+}
+.fa-brands{
+    font-size: 50px;
+    color: white;
+
+}
+.paragraf{
+    color: white;
+}
+@media screen and (max-width: 805px) {
+    .paragraf-logo{
+        display: none;
+    }
+    .paragraf{
+        display: none;
+    }
+}
+@media screen and (max-width: 805px) {
+    .fa-brands{
+        margin-top: 25px ;
+        margin-left: 110px;
+    }
+}
+
+/*******************************************************************drinks*************************************************/
+
+#drinks{
+    background-color: antiquewhite;
+    height: 900px;
+    width: 100%;
+}
+
+.drinks-padding{
+    padding: 3% 7% 3% 7%;
+}
+@media screen and (max-width: 1100px) {
+    #drinks{
+        height: 1150px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #drinks{
+        height: 2100px;
+    }
+}
+
+/********************************************************menu-pizza********************************************/
+
+#menu-pizza{
+    background-color:antiquewhite;
+    height: 900px;
+    width: 100%;
+}
+.pizza-padding{
+    padding: 3% 7% 3% 7%;
+}
+#pizza-foto{
+    height: 200px;
+    width: 200px;
+}
+@media screen and (max-width: 1100px) {
+    #menu-pizza{
+        height: 1150px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #menu-pizza{
+        height: 2100px;
+    }
+}
+
+/***********************************************about as********************************************/
+
+#about-as{
+    background-color: antiquewhite;
+    height: 1100px;
+    width: 100%;
+}
+@media screen and (max-width: 760px) {
+    #about-as{
+        height: 1230px;
+    }
+}
